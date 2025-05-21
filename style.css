@@ -1,0 +1,71 @@
+.carousel-item img {
+  height: auto;
+  max-height: 400px;
+  width: auto;
+  max-width: 100%;
+  margin: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* Navbar custom */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.nav-link.active {
+  color: #0d6efd !important;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: #0d6efd !important;
+  transition: color 0.2s;
+}
+
+/* Carousel custom */
+.carousel-inner {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #0d6efd;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+/* Button custom */
+.btn-primary, .btn-secondary {
+  min-width: 140px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  box-shadow: 0 2px 8px rgba(13,110,253,0.08);
+}
+.btn-primary:hover, .btn-secondary:hover {
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+
+/* Footer custom */
+footer {
+  background-color: #000000;
+  color: white;
+  padding: 40px 0;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.08);
+}
+footer .col {
+  margin-bottom: 20px;
+}
+footer h5 {
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+footer p, footer small {
+  color: #cccccc;
+}
